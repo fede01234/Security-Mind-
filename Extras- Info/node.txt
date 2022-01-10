@@ -1,0 +1,26 @@
+npm init
+
+npm install -D node-sass nodemon
+
+crear archivo scss
+
+"build-css": 
+"node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+
+
+
+$ npm run build-css
+
+
+npm run watch-css
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  * {
+    font-family: 'Open Sans', 'sans-serif';
+  }
+/*------------------------------------------------------------------
+   */
+  
+ 
+  body {
+    padding: 10px;
+  }
+  .btn {
+    margin: 5px;
+    border-radius: 4px !important;
+  }
+  .btn .btn-download {
+    display: flex;
+    padding: 5px;
+  }
+  
+  .btn .btn-download >span {
+    margin:5px;
+  }
+
+  .sub-download {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5em; position: relative; left: 20%;}
+
+  .icon-cloud-download {font-size: 10px;}
+  .icon-file-text2 {font-size: 10px;}
+
+.download-text {position: relative;left: 90px;}
+
+.button a { font: bold ;font-size: 2.5vw; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+border: solid black; padding: 10px 30px 30px;
+border-radius: 5px;text-decoration: none;
+ transition: 1s;color: 1s; background: 3seg;
+ 
+
+}
+.button a:hover {background:#6E85B2;
+color: white;
+
+}

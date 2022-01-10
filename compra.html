@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="shortcut icon" href="./favicon-32x32.png">
+        <link rel="stylesheet" href="./icons/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/sweetalert2.min.css">
+
+    <title>Security Mind</title>
+
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row justify-content-between mb-5">
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./img/logo-final-1.png" alt="" class="d-inline-block align-text-top" height="40%" width="24%">
+                        
+                      </a>                   
+                    
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <br>
+
+    <main>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col">
+                    <h2 class="d-flex justify-content-center mb-3 mt-5">Realizar Compra</h2>
+                    <form id="procesar-pago" action="#" method="post">
+                        <div class="form-group row">
+                            <label for="cliente" class="col-12 col-md-2 col-form-label h2">Cliente :</label>
+                            <div class="col-12 col-md-10 mb-3">
+                                <input type="text" class="form-control" id="cliente"
+                                    placeholder="Ingresa nombre cliente" name="destinatario">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-12 col-md-2 col-form-label h2">Correo :</label>
+                            <div class="col-12 col-md-10">
+                                <input type="text" class="form-control" id="correo" placeholder="Ingresa tu correo" name="cc_to">
+                            </div>
+                        </div>
+
+                        <div id="carrito" class="form-group table-responsive mt-5" >
+                            <table class="table" id="lista-compra" >
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Precio</th>
+                                        <th scope="col">Sub Total</th>
+                                        <th scope="col">Eliminar</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody >
+
+                                </tbody>
+                                
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-right">TOTAL :</th>
+                                    <th scope="col">
+                                        <input id="total" name="monto" class="font-weight-bold border-0" readonly style="background-color: white;"></input>
+                                    </th>
+                                    <!-- <th scope="col"></th> -->
+                                </tr>
+
+                            </table>
+                        </div>
+                       
+                    
+
+                        <div class="row justify-content-between">
+                            <div class="col-md-4 mb-2">
+                                <a href="index.html" class="btn btn-primary mt-2" id="">Inicio</a>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <button href="#" class="btn btn-success btn-block" id="procesar-compra">Realizar compra</button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                    <div class="d-flex flex-row-reverse bd-highlight">
+
+                   
+                      
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+
+  
+
+   
+
+    </div>
+
+ 
+    
+    
+<!-- CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    <!--  -->
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js-pages/carrito.js"></script>
+    <script src="./js-pages/compra.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</body>
+
+</html>
